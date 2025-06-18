@@ -1,0 +1,33 @@
+Need these
+
+# Install CDK dependencies
+npm install -g aws-cdk
+npm install aws-cdk-lib
+npm install constructs
+npm install @aws-sdk/client-dynamodb
+npm install aws-jwt-verify
+
+# Install dev dependencies
+npm install -D typescript
+npm install -D @types/node
+
+
+package.json dependencies need these
+
+{
+  "dependencies": {
+    "aws-cdk-lib": "^2.0.0",
+    "constructs": "^10.0.0",
+    "@aws-sdk/client-dynamodb": "^3.0.0",
+    "aws-jwt-verify": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "~4.9.0",
+    "@types/node": "^18.0.0"
+  }
+}
+
+
+for cloning only need to do this
+
+npm install
