@@ -1,2 +1,2 @@
 # STRASTAN
-Projects, Assignemnts, etc
+Projects, Assignments, etc
